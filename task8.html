@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>TASK 8</title>
+  <link rel="stylesheet" type="text/css" href="task8.css">
+</head>
+<body>
+  <div id="container">
+    <div class="row" id = "firstRow">
+      <input type="text" value=""> 
+      <input type="text" value="">
+      <button onclick="moveUp(this)">↑</button>
+      <button onclick="moveDown(this)">↓</button>
+      <button onclick="removeRow(this)">X</button>
+    </div>
+  </div>
+
+  <button onclick="addRow()">Добавить строку</button>
+  <button onclick="saveData()">Сохранить</button>
+  <pre id="jsonDisplay"></pre>
+
+  <script src="task8.js"></script>
+</body>
+</html>
